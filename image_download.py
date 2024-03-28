@@ -6,7 +6,8 @@ from newspaper import Article
 #a paywall and you need to check which images have been used. It uses the 
 #Newspaperk3k package to gather images and requests to save them locally.
 
-url = 'https://www.thetimes.co.uk/article/what-happened-prince-andrew-interview-newsnight-scoop-netflix-d7klnkbpn'
+url = ''
+
 article = Article(url)
 article.download()
 try:
